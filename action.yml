@@ -1,0 +1,13 @@
+name: 'C Style Check'
+description: 'Runs C style check with Uncrustify'
+author: 'galal-hussein'
+inputs: 
+  configPath:
+    description: 'Alternate configuration file to use'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+    icon: 'edit-3'
+    color: 'green'
